@@ -8,3 +8,4 @@ data['CLASS'] = np.where(data['TITLE'].str.contains("smartphone", case=False, re
 
 #data.head(20)
 data.to_csv('data_classified.tsv',sep='\t')
+print("hello")
